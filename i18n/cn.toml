@@ -1,0 +1,11 @@
+[writtenBy]
+other = "作者"
+
+[on]
+other = "在"
+
+[generator]
+other = "通过 <a href='https://gohugo.io'>Hugo</a> 创建 <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> 主题."
+
+[publishdate]
+other = "{{ .PublishDate.Format \"4月, 2022\" }}"

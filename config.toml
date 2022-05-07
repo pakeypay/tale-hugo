@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = 'Shaoning'
+theme = "tale"
+sectionPagesMenu = "main"
+[menu]
+  [[menu.main]]
+    identifier = "article"
+    name = "文章"
+    title = "article"
+    url = "/article/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "目录"
+    title = "posts"
+    url = "/posts/"
+    weight = 0
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我"
+    title = "about"
+    url = "/about/"
+    weight = 0
+
+defaultContentLanguage = "nl"
+disqusShortname = "disqus-example"
+comment = "true"
+[Author]
+    name = "Shaoning"
